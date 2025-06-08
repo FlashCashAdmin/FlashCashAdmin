@@ -1,0 +1,41 @@
+# FlashCash GitHub Push Commands
+
+## Initial Repository Setup
+git init
+git add .
+git commit -m "Initial FlashCash production release
+
+- Complete payment platform with Stripe integration
+- Guest mode send money functionality
+- Email notifications via SendGrid
+- Mobile-responsive React frontend with neon design
+- PostgreSQL database integration
+- Production deployment configurations"
+
+## Add GitHub Remote
+git remote add origin https://github.com/FlashCashAdmin/FlashCashAdmin.git
+
+## Push to GitHub
+git branch -M main
+git push -u origin main
+
+## Verify Push
+git remote -v
+git status
+
+## Alternative: Force Push (if repository exists)
+git push -f origin main
+
+## Check GitHub Repository
+# Visit: https://github.com/FlashCashAdmin/FlashCashAdmin
+# Verify all files are uploaded correctly
+# Check README.md displays properly
+
+## Next Steps After Push
+1. Enable GitHub Pages (if needed)
+2. Set up GitHub Actions for CI/CD
+3. Configure branch protection rules
+4. Add collaborators if needed
+5. Create first release tag:
+   git tag v1.0.0
+   git push origin v1.0.0
